@@ -1,0 +1,38 @@
+<!--pages/mine/mine.wxml-->
+<view>
+    <!-- header start -->
+    <view class="user-header">
+        <view  class="user-img">
+            <open-data type="userAvatarUrl"  class="user-avatar"></open-data>
+        </view>
+        <view style="display:flex; justify-content:center; align-items:center;margin:20rpx;">
+            <open-data type="userNickName" class="user-nickname"></open-data>
+        </view>
+    </view>
+    <!-- / header end -->
+
+    <!-- article start -->
+    <view class="user-article">
+        <navigator url="">
+            <view class="user-order">
+                <text class="order-all">全部设备</text>
+                <view class="order-look">查看<view class="iconfont icon-right"></view></view>
+            </view>
+        </navigator>
+
+        <navigator url="">
+            <view class="user-help">
+                <text class="help-all">帮助中心</text>
+                <view class="help-look">查看<view class="iconfont icon-right"></view></view>
+            </view>
+        </navigator>
+
+        <navigator url="">
+            <view class="more-service">
+                <text class="service-all">更多服务</text>
+                <view class="service-look">查看<view class="iconfont icon-right"></view></view>
+            </view>
+        </navigator>
+    </view>
+    <!-- / article end -->
+</view>

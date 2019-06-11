@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "i-switch": "../../mycomponent/switch/index"
+  }
+}
